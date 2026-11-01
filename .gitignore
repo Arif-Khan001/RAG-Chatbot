@@ -1,24 +1,6 @@
-# Python
-__pycache__/
-*.py[cod]
-*.pyd
-*.egg-info/
-.pytest_cache/
-
-# Virtual environments
-.venv/
-venv/
-
-# Environment secrets
 .env
-.env.*
-
-# Chroma persistent data (keep locally)
-chroma_db/
-
-# Uploaded documents (keep locally)
-data/uploads/
-
-# Streamlit
-.streamlit/
-
+node_modules/
+venv/
+__pycache__/
+dist/
+.DS_Store
